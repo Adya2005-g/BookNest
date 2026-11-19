@@ -1,0 +1,29 @@
+﻿# Dependencies
+node_modules/
+
+# Python virtual environments and bytecode
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Build output
+frontend/dist/
+
+# Logs
+*.log
+logs/
+
+# VS Code temporary files
+.vscode/*
+!.vscode/extensions.json
+*.code-workspace
